@@ -76,11 +76,11 @@ main {
 }
 @media (max-width: 768px) {
   .intro-section {
-    flex-direction: column;     /* stack vertically */
-    text-align: center;         /* center text when stacked */
+    flex-direction: column;     
+    text-align: center;         
   }
   .intro-image img {
-    margin-bottom: 20px;        /* space between image and text */
+    margin-bottom: 20px;        
   }
 }
 
