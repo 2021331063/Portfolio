@@ -74,6 +74,15 @@ main {
   text-decoration: none;
   transition: color 0.3s;
 }
+@media (max-width: 768px) {
+  .intro-section {
+    flex-direction: column;     /* stack vertically */
+    text-align: center;         /* center text when stacked */
+  }
+  .intro-image img {
+    margin-bottom: 20px;        /* space between image and text */
+  }
+}
 
 .nav-link img {
   display: block;
